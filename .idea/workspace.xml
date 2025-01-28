@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dd1611c3-7f27-4fd2-ab5a-abdcc67feff2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/HexagonalTriangleTask.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RunningOtherCases.py" beforeDir="false" afterPath="$PROJECT_DIR$/RunningOtherCases.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +23,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "adnanchohan"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/adnanchohan/HexagonalTriangleTask.git",
@@ -45,6 +48,7 @@
   "keyToString": {
     "Python.Running3Cases.executor": "Run",
     "Python.RunningNoCases.executor": "Run",
+    "Python.RunningOtherCases.executor": "Run",
     "Python.main.executor": "Run",
     "Python.new.executor": "Run",
     "Python.testTask2.executor": "Run",
