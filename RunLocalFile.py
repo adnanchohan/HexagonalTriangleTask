@@ -1,3 +1,5 @@
+import datetime
+
 def is_core(a, b, c):
     # Sort the values to get the middle one as the core
     sorted_cells = sorted([a, b, c])
@@ -40,6 +42,15 @@ def read_input_file(filename):
     return sets
 
 
+def save_results_to_file(results):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+    filename = f"output_{timestamp}.txt"
+    with open(filename, 'w') as file:
+        for i, result in enumerate(results, 1):
+            file.write(f"{result}\n")
+    print(f"Results saved to {filename}")
+
+
 def main():
     input_data = []
 
@@ -73,6 +84,9 @@ def main():
     print("\nProcessing Results:")
     for i, result in enumerate(results, 1):
         print(f"Set {i}: {result}")
+
+    # Save results to file
+    save_results_to_file(results)
 
 
 if __name__ == "__main__":
